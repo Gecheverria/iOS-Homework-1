@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C08D546C1D9C1A6300F5334E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D546B1D9C1A6300F5334E /* main.m */; };
+		C08D546F1D9C1A6300F5334E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D546E1D9C1A6300F5334E /* AppDelegate.m */; };
+		C08D54721D9C1A6300F5334E /* PokemonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D54711D9C1A6300F5334E /* PokemonViewController.m */; };
+		C08D54751D9C1A6300F5334E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08D54731D9C1A6300F5334E /* Main.storyboard */; };
+		C08D54771D9C1A6300F5334E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08D54761D9C1A6300F5334E /* Assets.xcassets */; };
+		C08D547A1D9C1A6300F5334E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08D54781D9C1A6300F5334E /* LaunchScreen.storyboard */; };
+		C08D54851D9C1A6300F5334E /* PokeAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D54841D9C1A6300F5334E /* PokeAPITests.m */; };
+		C08D54901D9C1A6300F5334E /* PokeAPIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D548F1D9C1A6300F5334E /* PokeAPIUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C08D54811D9C1A6300F5334E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C08D545F1D9C1A6300F5334E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C08D54661D9C1A6300F5334E;
+			remoteInfo = PokeAPI;
+		};
+		C08D548C1D9C1A6300F5334E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C08D545F1D9C1A6300F5334E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C08D54661D9C1A6300F5334E;
+			remoteInfo = PokeAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C08D54671D9C1A6300F5334E /* PokeAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08D546B1D9C1A6300F5334E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C08D546D1D9C1A6300F5334E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C08D546E1D9C1A6300F5334E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C08D54701D9C1A6300F5334E /* PokemonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokemonViewController.h; sourceTree = "<group>"; };
+		C08D54711D9C1A6300F5334E /* PokemonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokemonViewController.m; sourceTree = "<group>"; };
+		C08D54741D9C1A6300F5334E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C08D54761D9C1A6300F5334E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C08D54791D9C1A6300F5334E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C08D547B1D9C1A6300F5334E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08D54801D9C1A6300F5334E /* PokeAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08D54841D9C1A6300F5334E /* PokeAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeAPITests.m; sourceTree = "<group>"; };
+		C08D54861D9C1A6300F5334E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08D548B1D9C1A6300F5334E /* PokeAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08D548F1D9C1A6300F5334E /* PokeAPIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeAPIUITests.m; sourceTree = "<group>"; };
+		C08D54911D9C1A6300F5334E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C08D54641D9C1A6300F5334E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08D547D1D9C1A6300F5334E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08D54881D9C1A6300F5334E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C08D545E1D9C1A6300F5334E = {
+			isa = PBXGroup;
+			children = (
+				C08D54691D9C1A6300F5334E /* PokeAPI */,
+				C08D54831D9C1A6300F5334E /* PokeAPITests */,
+				C08D548E1D9C1A6300F5334E /* PokeAPIUITests */,
+				C08D54681D9C1A6300F5334E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C08D54681D9C1A6300F5334E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C08D54671D9C1A6300F5334E /* PokeAPI.app */,
+				C08D54801D9C1A6300F5334E /* PokeAPITests.xctest */,
+				C08D548B1D9C1A6300F5334E /* PokeAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C08D54691D9C1A6300F5334E /* PokeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C08D546D1D9C1A6300F5334E /* AppDelegate.h */,
+				C08D546E1D9C1A6300F5334E /* AppDelegate.m */,
+				C08D54701D9C1A6300F5334E /* PokemonViewController.h */,
+				C08D54711D9C1A6300F5334E /* PokemonViewController.m */,
+				C08D54731D9C1A6300F5334E /* Main.storyboard */,
+				C08D54761D9C1A6300F5334E /* Assets.xcassets */,
+				C08D54781D9C1A6300F5334E /* LaunchScreen.storyboard */,
+				C08D547B1D9C1A6300F5334E /* Info.plist */,
+				C08D546A1D9C1A6300F5334E /* Supporting Files */,
+			);
+			path = PokeAPI;
+			sourceTree = "<group>";
+		};
+		C08D546A1D9C1A6300F5334E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C08D546B1D9C1A6300F5334E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C08D54831D9C1A6300F5334E /* PokeAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				C08D54841D9C1A6300F5334E /* PokeAPITests.m */,
+				C08D54861D9C1A6300F5334E /* Info.plist */,
+			);
+			path = PokeAPITests;
+			sourceTree = "<group>";
+		};
+		C08D548E1D9C1A6300F5334E /* PokeAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C08D548F1D9C1A6300F5334E /* PokeAPIUITests.m */,
+				C08D54911D9C1A6300F5334E /* Info.plist */,
+			);
+			path = PokeAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C08D54661D9C1A6300F5334E /* PokeAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08D54941D9C1A6300F5334E /* Build configuration list for PBXNativeTarget "PokeAPI" */;
+			buildPhases = (
+				C08D54631D9C1A6300F5334E /* Sources */,
+				C08D54641D9C1A6300F5334E /* Frameworks */,
+				C08D54651D9C1A6300F5334E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeAPI;
+			productName = PokeAPI;
+			productReference = C08D54671D9C1A6300F5334E /* PokeAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C08D547F1D9C1A6300F5334E /* PokeAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08D54971D9C1A6300F5334E /* Build configuration list for PBXNativeTarget "PokeAPITests" */;
+			buildPhases = (
+				C08D547C1D9C1A6300F5334E /* Sources */,
+				C08D547D1D9C1A6300F5334E /* Frameworks */,
+				C08D547E1D9C1A6300F5334E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C08D54821D9C1A6300F5334E /* PBXTargetDependency */,
+			);
+			name = PokeAPITests;
+			productName = PokeAPITests;
+			productReference = C08D54801D9C1A6300F5334E /* PokeAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C08D548A1D9C1A6300F5334E /* PokeAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08D549A1D9C1A6300F5334E /* Build configuration list for PBXNativeTarget "PokeAPIUITests" */;
+			buildPhases = (
+				C08D54871D9C1A6300F5334E /* Sources */,
+				C08D54881D9C1A6300F5334E /* Frameworks */,
+				C08D54891D9C1A6300F5334E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C08D548D1D9C1A6300F5334E /* PBXTargetDependency */,
+			);
+			name = PokeAPIUITests;
+			productName = PokeAPIUITests;
+			productReference = C08D548B1D9C1A6300F5334E /* PokeAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C08D545F1D9C1A6300F5334E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gabriel Enrique Echeverria Mira";
+				TargetAttributes = {
+					C08D54661D9C1A6300F5334E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C08D547F1D9C1A6300F5334E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C08D54661D9C1A6300F5334E;
+					};
+					C08D548A1D9C1A6300F5334E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C08D54661D9C1A6300F5334E;
+					};
+				};
+			};
+			buildConfigurationList = C08D54621D9C1A6300F5334E /* Build configuration list for PBXProject "PokeAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C08D545E1D9C1A6300F5334E;
+			productRefGroup = C08D54681D9C1A6300F5334E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C08D54661D9C1A6300F5334E /* PokeAPI */,
+				C08D547F1D9C1A6300F5334E /* PokeAPITests */,
+				C08D548A1D9C1A6300F5334E /* PokeAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C08D54651D9C1A6300F5334E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08D547A1D9C1A6300F5334E /* LaunchScreen.storyboard in Resources */,
+				C08D54771D9C1A6300F5334E /* Assets.xcassets in Resources */,
+				C08D54751D9C1A6300F5334E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08D547E1D9C1A6300F5334E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08D54891D9C1A6300F5334E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C08D54631D9C1A6300F5334E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08D54721D9C1A6300F5334E /* PokemonViewController.m in Sources */,
+				C08D546F1D9C1A6300F5334E /* AppDelegate.m in Sources */,
+				C08D546C1D9C1A6300F5334E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08D547C1D9C1A6300F5334E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08D54851D9C1A6300F5334E /* PokeAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08D54871D9C1A6300F5334E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08D54901D9C1A6300F5334E /* PokeAPIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C08D54821D9C1A6300F5334E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C08D54661D9C1A6300F5334E /* PokeAPI */;
+			targetProxy = C08D54811D9C1A6300F5334E /* PBXContainerItemProxy */;
+		};
+		C08D548D1D9C1A6300F5334E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C08D54661D9C1A6300F5334E /* PokeAPI */;
+			targetProxy = C08D548C1D9C1A6300F5334E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C08D54731D9C1A6300F5334E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C08D54741D9C1A6300F5334E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C08D54781D9C1A6300F5334E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C08D54791D9C1A6300F5334E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C08D54921D9C1A6300F5334E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C08D54931D9C1A6300F5334E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C08D54951D9C1A6300F5334E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokeAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.PokeAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C08D54961D9C1A6300F5334E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokeAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.PokeAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C08D54981D9C1A6300F5334E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.PokeAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeAPI.app/PokeAPI";
+			};
+			name = Debug;
+		};
+		C08D54991D9C1A6300F5334E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.PokeAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeAPI.app/PokeAPI";
+			};
+			name = Release;
+		};
+		C08D549B1D9C1A6300F5334E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokeAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.PokeAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokeAPI;
+			};
+			name = Debug;
+		};
+		C08D549C1D9C1A6300F5334E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokeAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorial.PokeAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokeAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C08D54621D9C1A6300F5334E /* Build configuration list for PBXProject "PokeAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08D54921D9C1A6300F5334E /* Debug */,
+				C08D54931D9C1A6300F5334E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C08D54941D9C1A6300F5334E /* Build configuration list for PBXNativeTarget "PokeAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08D54951D9C1A6300F5334E /* Debug */,
+				C08D54961D9C1A6300F5334E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C08D54971D9C1A6300F5334E /* Build configuration list for PBXNativeTarget "PokeAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08D54981D9C1A6300F5334E /* Debug */,
+				C08D54991D9C1A6300F5334E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C08D549A1D9C1A6300F5334E /* Build configuration list for PBXNativeTarget "PokeAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08D549B1D9C1A6300F5334E /* Debug */,
+				C08D549C1D9C1A6300F5334E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C08D545F1D9C1A6300F5334E /* Project object */;
+}
